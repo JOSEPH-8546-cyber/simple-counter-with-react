@@ -32,8 +32,8 @@ SimpleCounter.propTypes = {
 
 let counter = 0;
 setInterval(function() {
-	const four = Math.floor(counter / 1000);
-	const three = Math.floor(counter / 100);
+	const four = Math.floor(counter / 600);
+	const three = Math.floor(counter / 60);
 	const two = Math.floor(counter / 10);
 	const one = Math.floor(counter / 1);
 
